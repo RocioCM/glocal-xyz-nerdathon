@@ -30,7 +30,18 @@
 | --- | --- | --- | --- |
 | ![imagen](https://github.com/user-attachments/assets/b3e23cd0-538e-40c0-9b61-452414315476) | ![imagen](https://github.com/user-attachments/assets/82773b31-a906-4120-896f-50e621004871) | ![imagen](https://github.com/user-attachments/assets/5df048fe-baeb-41f4-ab85-09def48f0343) | ![imagen](https://github.com/user-attachments/assets/3792cb95-be28-4eb5-b684-948448a23d67) |
 
-- **Exploración de Grants:** Los usuarios pueden explorar una lista de grants disponibles, filtrando por categoría, comunidad o estado del grant.
+- **Exploración de Propuestas:** Los usuarios pueden explorar una lista de propuestas abiertas o históricas, filtrando por categoría, comunidad o estado.
+  
+| 1 | 2 |
+| --- | --- |
+| ![imagen](https://github.com/user-attachments/assets/fd833be3-dfe7-4707-8300-e83c7b7bc51d) | ![imagen](https://github.com/user-attachments/assets/88c03ff8-c13f-4eb7-a2e2-b3cdb07f4317) |
+
+- **Pagos a Proveedores:** En el caso de grants para eventos, se desbloquea la opción de acceder a una rampa de pagos transparente que permite pagar a los proveedores de servicio en moneda FIAT en su cuenta bancaria.
+
+| 1 |
+| --- |
+| ![imagen](https://github.com/user-attachments/assets/13e24978-63b0-448a-a77c-c4ef5b64b714) |
+
 - **Historial de Grants:** Los usuarios pueden acceder a un historial de sus solicitudes de grants, ver su estado actual (en revisión, aprobado, rechazado) y recibir notificaciones sobre cualquier actualización.
 
 ### **Curación y Evaluación de Grants**
@@ -43,6 +54,7 @@
 
 - **Registro en Blockchain:** Todas las acciones críticas, como la creación, modificación y aprobación de grants, son registradas en la blockchain de Polkadot, asegurando que cualquier usuario pueda auditar las actividades.
 - **Desbloqueo Automático de Fondos:** Los fondos aprobados para los grants se manejan a través de contratos inteligentes que liberan los recursos en función de hitos específicos alcanzados por los proyectos.
+- **Pagos en FIAT**: Los pagos a proveedores en eventos se podrán realizar en moneda FIAT, por detrás usaremos una rampa de pagos que haga la conversión del token nativo de la red a FIAT, evitando que el usuario tenga que realizar el proceso de cambio manualmente por fuera del sistema.
 
 ### **Almacenamiento Descentralizado**
 
@@ -52,4 +64,3 @@
 ### **Notificaciones y Comunicación**
 
 - **Notificaciones en Tiempo Real:** Los usuarios reciben notificaciones en tiempo real sobre actualizaciones importantes, como cambios en el estado de sus grants, nuevos comentarios o la aceptación en una comunidad. Los curators reciben notificaciones sobre nuevas propuestas cargadas o modificaciones en las propuestas a las que están dando seguimiento.
-- 
