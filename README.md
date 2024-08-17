@@ -66,9 +66,19 @@ Link: https://drive.google.com/file/d/1NT76OEx7UOtG7pOZ7EVdPASLNqmd4CAE/view?usp
 
 ### Demo
 
-- Slides de presentación para el Pitch de 1 minuto con video demo.
+Slides de presentación para el Pitch de 1 minuto con video demo.
 
 Link: https://docs.google.com/presentation/d/1D7UUuc3akpHiwwjAn-DziVeWY56ypH0utlIZsmW0Vo0/edit?usp=sharing
 
+### Twitter
 
+Creamos una cuenta de Twitter para dar difusión al producto y generar movimiento.
+
+Link: https://x.com/GlocalWeb3
+
+### Taikai
+
+Taikai es la plataforma usada durante la Hackaton para dar seguimiento al proyecto.
+
+Link: https://taikai.network/nerdconf/hackathons/nerdathon/projects/clzvdu4lk0lzgwm01g39kxlfi/idea
 
