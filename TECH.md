@@ -137,7 +137,7 @@ Este diseño modular permite que cada componente funcione de manera independient
 **Tecnología Utilizada:**
 
 - **Framework:** Node.js
-- **Rampa de pagos:** Eluter
+- **Rampa de pagos:** [Eluter](https://www.eluter.com/)
 
 **Descripción:**
 
