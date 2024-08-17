@@ -10,7 +10,7 @@ El sistema se basa en una arquitectura de microservicios desacoplada, donde cada
 
 Este diseño modular permite que cada componente funcione de manera independiente, facilitando su escalabilidad y el mantenimiento del sistema. La arquitectura está pensada para ser extensible, lo que significa que podemos integrar nuevas blockchains y tecnologías de almacenamiento descentralizado a medida que evolucionan las necesidades del producto.
 
-![imagen](https://github.com/user-attachments/assets/35870a82-e631-405b-bed0-3c8356970982)
+![imagen](https://github.com/user-attachments/assets/96dea455-f86a-470f-84dc-a1c026da4ea0)
 
 ## **Frontend Web**
 
@@ -80,7 +80,7 @@ Este diseño modular permite que cada componente funcione de manera independient
 
 - **Interfaces de Comunicación:** Expone una API REST que es utilizada por el Middlend para gestionar las operaciones relacionadas con las comunidades, como la creación de nuevas comunidades, la gestión de miembros, y la administración de roles. A su vez, consume una base de datos relacional exclusiva para esta API.
 
-![imagen.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/dc177202-8f3c-48e3-85d9-f53074e75f06/ea6369d8-b4da-4502-a6bb-a2c917d24827/imagen.png)
+![imagen](https://github.com/user-attachments/assets/5e293778-2c30-4ba9-b013-3101c2d5a711)
 
 ## **Grants API**
 
@@ -96,6 +96,8 @@ Este diseño modular permite que cada componente funcione de manera independient
 **Interacción con el Sistema:**
 
 - **Interfaces de Comunicación:** Expone una API REST que permite al Middlend realizar operaciones como la creación de propuestas, la actualización de su estado, y la gestión de los comentarios y evaluaciones realizados por los curators.
+
+![imagen](https://github.com/user-attachments/assets/3de72039-85c0-4ff8-a99b-2198fb8d9467)
 
 ## **Blockchain API**
 
@@ -129,3 +131,21 @@ Este diseño modular permite que cada componente funcione de manera independient
 **Interacción con el Sistema:**
 
 - **Interfaces de Comunicación:** Expone una API REST que permite al Middlend almacenar y recuperar archivos del almacenamiento. Los hashes de estos archivos pueden ser registrados en la blockchain a través de la Blockchain API para garantizar su trazabilidad.
+
+## **FIAT Payments API**
+
+**Tecnología Utilizada:**
+
+- **Framework:** Node.js
+- **Rampa de pagos:** Eluter
+
+**Descripción:**
+
+- La FIAT Payments API se encarga de utilizar los fondos asignados por el grant para gestionar pagos a proveedor en moneda FIAT.
+- Este módulo no implementa la lógica de pagos, sino que se integra con una API externa, en este caso elegimos Eluter, por ser un proyecto local del ecosistema que resuelve este problema de forma transparente y fácil de integrar.
+- Es flexible en caso de querer remplazar la rampa de pagos de Eluter por otra solución sin afectar al resto del sistema.
+
+**Interacción con el Sistema:**
+
+- **Interfaces de Comunicación:** Expone una API REST que permite al middlend interactuar de forma indirecta con la rampa de pagos. A su vez, interactúa efectivamente con la rampa de pagos.
+
