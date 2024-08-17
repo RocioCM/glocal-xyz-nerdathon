@@ -31,8 +31,6 @@ Nuestro equipo propone una **plataforma abierta de gestión de grants descentral
 
 ## Recursos
 
-# Links
-
 ### Figma
 
 En el Figma se encuentra el diseño en alta fidelidad de los flujos principales de la aplicación.
