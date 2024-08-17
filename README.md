@@ -1,6 +1,6 @@
 # Glocal.xyz: Plataforma Abierta de Gestión de Grants en Polkadot
 
-Glocal.xyz is your gateway to bridging the gap between cutting-edge global Web3 technologies and vibrant local communities. 
+Glocal.xyz is your gateway to bridging the gap between cutting-edge global Web3 technologies and vibrant local communities. Our platform empowers local innovators, educators, and event organizers by providing access to blockchain-based grants and resources. Join us in federalizing tech education and bringing transparency, accessibility, and ease to the decentralized world.
 
 ### Contexto general
 
