@@ -4,7 +4,7 @@ Glocal.xyz is your gateway to bridging the gap between cutting-edge global Web3 
 
 ### Contexto general
 
-El ecosistema de Polkadot está en crecimiento y con ello crecen también las propuestas de creadores de contenido y organizadores de eventos, que necesitan financiamiento para poder llevarse a cabo. La comunidad de Polkadot cuenta con un sistema de financiamiento mediante Grants para estas iniciativas, sin embargo, el acceso a este es un desafío, especialmente para aquellos que no tienen contactos dentro de la red de Polkadot o no están muy familiarizados con tecnología. 
+El ecosistema de Polkadot está en crecimiento y con ello crecen también las propuestas de creadores de contenido y organizadores de eventos, que necesitan financiamiento para poder llevarse a cabo. La comunidad de Polkadot cuenta con un sistema de financiamiento mediante Grants para estas iniciativas, sin embargo, el acceso a este es un desafío, especialmente para aquellos que no tienen contactos dentro de la red de Polkadot o no están muy familiarizados con tecnología.
 
 Actualmente, el proceso de solicitud de grants se hace a través de un canal de Discord al cual se puede ingresar únicamente mediante invitación exclusiva. A su vez, dentro del canal de Discord, la información no tiene un orden preciso y el usuario puede perderse si intenta presentar un Grant sin guía de otra persona que ya tenga experiencia. A su vez, todo el proceso de gestión del grant se realiza a través de Discord y otros canales de comunicación informales, por lo que este proceso de asignación de fondos carece de transparencia y trazabilidad en la blockchain. Incluso cuando el usuario obtiene un grant, los fondos se entregan en la moneda nativa de la red (DOT en este caso) y el usuario puede tener dificultad para usar esos fondos para pagar a sus proveedores (en caso de ser un evento) o para cualquier otro fin (en caso de crear contenido). Este enfoque limita la participación y excluye a muchos potenciales contribuyentes que podrían aportar valor significativo al ecosistema.
 
@@ -27,11 +27,13 @@ Nuestro equipo propone una **plataforma abierta de gestión de grants descentral
 ### Tecnologías
 
 El sistema contará con:
-- Una aplicación Frontend en Next.js
-- Una serie de APIs REST en Node.js para gestionar la interacción entre las distintas entidades e integraciones del sistema
-- Utilizará la red Polkadot como base de datos para seguimiento de las propuestas y grants
-- Utilizará CESS como almacenamiento descentralizado para los archivos de las propuestas
+
+- Una aplicación Frontend en Next.js.
+- Una serie de APIs REST en Node.js para gestionar la interacción entre las distintas entidades e integraciones del sistema.
+- Utilizará la red Polkadot como base de datos para seguimiento de las propuestas y grants.
+- Utilizará CESS como almacenamiento descentralizado para los archivos de las propuestas.
 - Utilizará la plataforma [Eluter](https://www.eluter.com/) como rampa de pagos para conversión entre crypto y FIAT.
+- Utilizará la API de OpenAI para la evaluación asistida de propuestas con IA.
 
 ## Más detalles
 
@@ -81,4 +83,3 @@ Link: https://x.com/GlocalWeb3
 Taikai es la plataforma usada durante la Hackaton para dar seguimiento al proyecto.
 
 Link: https://taikai.network/nerdconf/hackathons/nerdathon/projects/clzvdu4lk0lzgwm01g39kxlfi/idea
-

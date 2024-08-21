@@ -10,7 +10,7 @@ El sistema se basa en una arquitectura de microservicios desacoplada, donde cada
 
 Este diseño modular permite que cada componente funcione de manera independiente, facilitando su escalabilidad y el mantenimiento del sistema. La arquitectura está pensada para ser extensible, lo que significa que podemos integrar nuevas blockchains y tecnologías de almacenamiento descentralizado a medida que evolucionan las necesidades del producto.
 
-![imagen](https://github.com/user-attachments/assets/96dea455-f86a-470f-84dc-a1c026da4ea0)
+![imagen](https://github.com/user-attachments/assets/4731b96c-fe37-4e98-891b-9f89929efa26)
 
 ## **Frontend Web**
 
@@ -149,3 +149,11 @@ Este diseño modular permite que cada componente funcione de manera independient
 
 - **Interfaces de Comunicación:** Expone una API REST que permite al middlend interactuar de forma indirecta con la rampa de pagos. A su vez, interactúa efectivamente con la rampa de pagos.
 
+## **Suggestions API**
+
+- El middlend se comunica directamente con la API de Open AI para obtener análisis y recomendaciones sobre las propuestas de grants en aspectos predefinidos.
+- Esta API se encargará de procesar las propuestas y proporcionar recomendaciones basadas en criterios específicos como Factibilidad, Viabilidad, Deseabilidad y Utilidad.
+- Utilizaremos la API de OpenAI para este propósito.
+- Crearemos un prompt específico para la API de OpenAI que permita evaluar las propuestas de grants de manera eficiente y precisa.
+
+- **Interfaces de Comunicación:** el middlend interactua con la API de OpenAI directamente para analizar las propuestas de grants.
